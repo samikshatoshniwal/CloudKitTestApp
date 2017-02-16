@@ -1,0 +1,523 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CloudkitManager"
+provides-nominal:
+- "C15CloudKitTestApp15CloudkitManager"
+provides-member:
+- ["C15CloudKitTestApp15CloudkitManager", ""]
+provides-dynamic-lookup:
+- "setup"
+- "getICloudId"
+- "privateDatabase"
+- "iCloudUserIDAsync"
+- "container"
+- "customZone"
+- "createZone"
+- "createRecord"
+- "shared"
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- !private "UserDefaults"
+- "CastingPrecedence"
+- !private "CKRecordValue"
+- !private "CKRecord"
+- "CKRecordZone"
+- "String"
+- "CKContainer"
+- "NSError"
+- !private "print"
+- "NSObject"
+- "BooleanLiteralType"
+- !private "OperationQueue"
+- "CloudkitManager"
+- "CKDatabase"
+- "CKRecordID"
+- "StringLiteralType"
+- !private "!="
+depends-member:
+- !private ["Ps9AnyObject", "CKContainer"]
+- !private ["Ps9AnyObject", "CKRecord"]
+- !private ["Ps9AnyObject", "CKRecordZone"]
+- ["Ps9AnyObject", "CloudkitManager"]
+- !private ["Ps9AnyObject", "OperationQueue"]
+- !private ["Ps9AnyObject", "UserDefaults"]
+- !private ["Ps9AnyObject", "addOperation"]
+- ["Ps9AnyObject", "container"]
+- ["Ps9AnyObject", "createRecord"]
+- ["Ps9AnyObject", "createZone"]
+- ["Ps9AnyObject", "customZone"]
+- !private ["Ps9AnyObject", "default"]
+- !private ["Ps9AnyObject", "fetchUserRecordID"]
+- ["Ps9AnyObject", "getICloudId"]
+- ["Ps9AnyObject", "iCloudUserIDAsync"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "main"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "privateCloudDatabase"]
+- ["Ps9AnyObject", "privateDatabase"]
+- !private ["Ps9AnyObject", "recordName"]
+- !private ["Ps9AnyObject", "save"]
+- !private ["Ps9AnyObject", "setObject"]
+- !private ["Ps9AnyObject", "setValue"]
+- ["Ps9AnyObject", "setup"]
+- ["Ps9AnyObject", "shared"]
+- !private ["Ps9AnyObject", "standard"]
+- !private ["Ps9AnyObject", "synchronize"]
+- !private ["Ps9AnyObject", "zoneID"]
+- !private ["Ps9AnyObject", "zoneName"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["CSo11CKContainer", "default"]
+- ["CSo11CKContainer", "deinit"]
+- !private ["CSo11CKContainer", "fetchUserRecordID"]
+- !private ["CSo11CKContainer", "privateCloudDatabase"]
+- ["CSo10CKDatabase", "deinit"]
+- !private ["CSo10CKDatabase", "save"]
+- ["CSo8CKRecord", "deinit"]
+- !private ["CSo8CKRecord", "init"]
+- !private ["CSo8CKRecord", "setObject"]
+- !private ["CSo10CKRecordID", "deinit"]
+- !private ["CSo10CKRecordID", "recordName"]
+- !private ["PSo13CKRecordValue", "deinit"]
+- !private ["PSo13CKRecordValue", "init"]
+- ["CSo12CKRecordZone", "deinit"]
+- !private ["CSo12CKRecordZone", "init"]
+- !private ["CSo12CKRecordZone", "zoneID"]
+- ["CSo14CKRecordZoneID", "deinit"]
+- !private ["CSo14CKRecordZoneID", "zoneName"]
+- !private ["PSo15CNKeyDescriptor", "init"]
+- !private ["Ps7CVarArg", "CKContainer"]
+- !private ["Ps7CVarArg", "CKRecord"]
+- !private ["Ps7CVarArg", "CKRecordZone"]
+- ["Ps7CVarArg", "CloudkitManager"]
+- !private ["Ps7CVarArg", "OperationQueue"]
+- !private ["Ps7CVarArg", "UserDefaults"]
+- !private ["Ps7CVarArg", "addOperation"]
+- ["Ps7CVarArg", "container"]
+- ["Ps7CVarArg", "createRecord"]
+- ["Ps7CVarArg", "createZone"]
+- ["Ps7CVarArg", "customZone"]
+- !private ["Ps7CVarArg", "default"]
+- !private ["Ps7CVarArg", "fetchUserRecordID"]
+- ["Ps7CVarArg", "getICloudId"]
+- ["Ps7CVarArg", "iCloudUserIDAsync"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "main"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "privateCloudDatabase"]
+- ["Ps7CVarArg", "privateDatabase"]
+- !private ["Ps7CVarArg", "recordName"]
+- !private ["Ps7CVarArg", "save"]
+- !private ["Ps7CVarArg", "setObject"]
+- !private ["Ps7CVarArg", "setValue"]
+- ["Ps7CVarArg", "setup"]
+- ["Ps7CVarArg", "shared"]
+- !private ["Ps7CVarArg", "standard"]
+- !private ["Ps7CVarArg", "synchronize"]
+- !private ["Ps7CVarArg", "zoneID"]
+- !private ["Ps7CVarArg", "zoneName"]
+- ["Ps7CVarArg", ""]
+- !private ["Vs9Character", "deinit"]
+- ["C15CloudKitTestApp15CloudkitManager", "Bool"]
+- ["C15CloudKitTestApp15CloudkitManager", "CKContainer"]
+- ["C15CloudKitTestApp15CloudkitManager", "CKDatabase"]
+- !private ["C15CloudKitTestApp15CloudkitManager", "CKRecord"]
+- ["C15CloudKitTestApp15CloudkitManager", "CKRecordID"]
+- !private ["C15CloudKitTestApp15CloudkitManager", "CKRecordValue"]
+- ["C15CloudKitTestApp15CloudkitManager", "CKRecordZone"]
+- ["C15CloudKitTestApp15CloudkitManager", "CloudkitManager"]
+- ["C15CloudKitTestApp15CloudkitManager", "NSError"]
+- !private ["C15CloudKitTestApp15CloudkitManager", "OperationQueue"]
+- ["C15CloudKitTestApp15CloudkitManager", "String"]
+- !private ["C15CloudKitTestApp15CloudkitManager", "UserDefaults"]
+- ["C15CloudKitTestApp15CloudkitManager", "container"]
+- ["C15CloudKitTestApp15CloudkitManager", "createRecord"]
+- ["C15CloudKitTestApp15CloudkitManager", "createZone"]
+- ["C15CloudKitTestApp15CloudkitManager", "customZone"]
+- ["C15CloudKitTestApp15CloudkitManager", "deinit"]
+- ["C15CloudKitTestApp15CloudkitManager", "getICloudId"]
+- ["C15CloudKitTestApp15CloudkitManager", "iCloudUserIDAsync"]
+- ["C15CloudKitTestApp15CloudkitManager", "init"]
+- !private ["C15CloudKitTestApp15CloudkitManager", "print"]
+- ["C15CloudKitTestApp15CloudkitManager", "privateDatabase"]
+- ["C15CloudKitTestApp15CloudkitManager", "setup"]
+- ["C15CloudKitTestApp15CloudkitManager", "shared"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "CKContainer"]
+- !private ["Ps28CustomDebugStringConvertible", "CKRecord"]
+- !private ["Ps28CustomDebugStringConvertible", "CKRecordZone"]
+- ["Ps28CustomDebugStringConvertible", "CloudkitManager"]
+- !private ["Ps28CustomDebugStringConvertible", "OperationQueue"]
+- !private ["Ps28CustomDebugStringConvertible", "UserDefaults"]
+- !private ["Ps28CustomDebugStringConvertible", "addOperation"]
+- ["Ps28CustomDebugStringConvertible", "container"]
+- ["Ps28CustomDebugStringConvertible", "createRecord"]
+- ["Ps28CustomDebugStringConvertible", "createZone"]
+- ["Ps28CustomDebugStringConvertible", "customZone"]
+- !private ["Ps28CustomDebugStringConvertible", "default"]
+- !private ["Ps28CustomDebugStringConvertible", "fetchUserRecordID"]
+- ["Ps28CustomDebugStringConvertible", "getICloudId"]
+- ["Ps28CustomDebugStringConvertible", "iCloudUserIDAsync"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "main"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "privateCloudDatabase"]
+- ["Ps28CustomDebugStringConvertible", "privateDatabase"]
+- !private ["Ps28CustomDebugStringConvertible", "recordName"]
+- !private ["Ps28CustomDebugStringConvertible", "save"]
+- !private ["Ps28CustomDebugStringConvertible", "setObject"]
+- !private ["Ps28CustomDebugStringConvertible", "setValue"]
+- ["Ps28CustomDebugStringConvertible", "setup"]
+- ["Ps28CustomDebugStringConvertible", "shared"]
+- !private ["Ps28CustomDebugStringConvertible", "standard"]
+- !private ["Ps28CustomDebugStringConvertible", "synchronize"]
+- !private ["Ps28CustomDebugStringConvertible", "zoneID"]
+- !private ["Ps28CustomDebugStringConvertible", "zoneName"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "CKContainer"]
+- !private ["Ps23CustomStringConvertible", "CKRecord"]
+- !private ["Ps23CustomStringConvertible", "CKRecordZone"]
+- ["Ps23CustomStringConvertible", "CloudkitManager"]
+- !private ["Ps23CustomStringConvertible", "OperationQueue"]
+- !private ["Ps23CustomStringConvertible", "UserDefaults"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addOperation"]
+- ["Ps23CustomStringConvertible", "container"]
+- ["Ps23CustomStringConvertible", "createRecord"]
+- ["Ps23CustomStringConvertible", "createZone"]
+- ["Ps23CustomStringConvertible", "customZone"]
+- !private ["Ps23CustomStringConvertible", "default"]
+- !private ["Ps23CustomStringConvertible", "fetchUserRecordID"]
+- ["Ps23CustomStringConvertible", "getICloudId"]
+- ["Ps23CustomStringConvertible", "iCloudUserIDAsync"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "main"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "privateCloudDatabase"]
+- ["Ps23CustomStringConvertible", "privateDatabase"]
+- !private ["Ps23CustomStringConvertible", "recordName"]
+- !private ["Ps23CustomStringConvertible", "save"]
+- !private ["Ps23CustomStringConvertible", "setObject"]
+- !private ["Ps23CustomStringConvertible", "setValue"]
+- ["Ps23CustomStringConvertible", "setup"]
+- ["Ps23CustomStringConvertible", "shared"]
+- !private ["Ps23CustomStringConvertible", "standard"]
+- !private ["Ps23CustomStringConvertible", "synchronize"]
+- !private ["Ps23CustomStringConvertible", "zoneID"]
+- !private ["Ps23CustomStringConvertible", "zoneName"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "CKContainer"]
+- !private ["Ps9Equatable", "CKRecord"]
+- !private ["Ps9Equatable", "CKRecordZone"]
+- ["Ps9Equatable", "CloudkitManager"]
+- !private ["Ps9Equatable", "OperationQueue"]
+- !private ["Ps9Equatable", "UserDefaults"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "addOperation"]
+- ["Ps9Equatable", "container"]
+- ["Ps9Equatable", "createRecord"]
+- ["Ps9Equatable", "createZone"]
+- ["Ps9Equatable", "customZone"]
+- !private ["Ps9Equatable", "default"]
+- !private ["Ps9Equatable", "fetchUserRecordID"]
+- ["Ps9Equatable", "getICloudId"]
+- ["Ps9Equatable", "iCloudUserIDAsync"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "main"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "privateCloudDatabase"]
+- ["Ps9Equatable", "privateDatabase"]
+- !private ["Ps9Equatable", "recordName"]
+- !private ["Ps9Equatable", "save"]
+- !private ["Ps9Equatable", "setObject"]
+- !private ["Ps9Equatable", "setValue"]
+- ["Ps9Equatable", "setup"]
+- ["Ps9Equatable", "shared"]
+- !private ["Ps9Equatable", "standard"]
+- !private ["Ps9Equatable", "synchronize"]
+- !private ["Ps9Equatable", "zoneID"]
+- !private ["Ps9Equatable", "zoneName"]
+- ["Ps9Equatable", ""]
+- !private ["Ps5Error", "deinit"]
+- !private ["Ps5Error", "localizedDescription"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "CKContainer"]
+- !private ["Ps8Hashable", "CKRecord"]
+- !private ["Ps8Hashable", "CKRecordZone"]
+- ["Ps8Hashable", "CloudkitManager"]
+- !private ["Ps8Hashable", "OperationQueue"]
+- !private ["Ps8Hashable", "UserDefaults"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "addOperation"]
+- ["Ps8Hashable", "container"]
+- ["Ps8Hashable", "createRecord"]
+- ["Ps8Hashable", "createZone"]
+- ["Ps8Hashable", "customZone"]
+- !private ["Ps8Hashable", "default"]
+- !private ["Ps8Hashable", "fetchUserRecordID"]
+- ["Ps8Hashable", "getICloudId"]
+- ["Ps8Hashable", "iCloudUserIDAsync"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "main"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "privateCloudDatabase"]
+- ["Ps8Hashable", "privateDatabase"]
+- !private ["Ps8Hashable", "recordName"]
+- !private ["Ps8Hashable", "save"]
+- !private ["Ps8Hashable", "setObject"]
+- !private ["Ps8Hashable", "setValue"]
+- ["Ps8Hashable", "setup"]
+- ["Ps8Hashable", "shared"]
+- !private ["Ps8Hashable", "standard"]
+- !private ["Ps8Hashable", "synchronize"]
+- !private ["Ps8Hashable", "zoneID"]
+- !private ["Ps8Hashable", "zoneName"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "recordName"]
+- !private ["PSo8NSCoding", "setObject"]
+- !private ["PSo8NSCoding", "zoneID"]
+- !private ["PSo8NSCoding", "zoneName"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "recordName"]
+- !private ["PSo9NSCopying", "setObject"]
+- !private ["PSo9NSCopying", "zoneID"]
+- !private ["PSo9NSCopying", "zoneName"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "CKContainer"]
+- ["CSo8NSObject", "CKDatabase"]
+- !private ["CSo8NSObject", "CKRecord"]
+- ["CSo8NSObject", "CKRecordID"]
+- !private ["CSo8NSObject", "CKRecordValue"]
+- ["CSo8NSObject", "CKRecordZone"]
+- ["CSo8NSObject", "CloudkitManager"]
+- ["CSo8NSObject", "NSError"]
+- !private ["CSo8NSObject", "OperationQueue"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "UserDefaults"]
+- !private ["CSo8NSObject", "addOperation"]
+- ["CSo8NSObject", "container"]
+- ["CSo8NSObject", "createRecord"]
+- ["CSo8NSObject", "createZone"]
+- ["CSo8NSObject", "customZone"]
+- !private ["CSo8NSObject", "default"]
+- ["CSo8NSObject", "deinit"]
+- !private ["CSo8NSObject", "fetchUserRecordID"]
+- ["CSo8NSObject", "getICloudId"]
+- ["CSo8NSObject", "iCloudUserIDAsync"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "main"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "privateCloudDatabase"]
+- ["CSo8NSObject", "privateDatabase"]
+- !private ["CSo8NSObject", "recordName"]
+- !private ["CSo8NSObject", "save"]
+- !private ["CSo8NSObject", "setObject"]
+- !private ["CSo8NSObject", "setValue"]
+- ["CSo8NSObject", "setup"]
+- ["CSo8NSObject", "shared"]
+- !private ["CSo8NSObject", "standard"]
+- !private ["CSo8NSObject", "synchronize"]
+- !private ["CSo8NSObject", "zoneID"]
+- !private ["CSo8NSObject", "zoneName"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "CKContainer"]
+- !private ["PSo16NSObjectProtocol", "CKRecord"]
+- !private ["PSo16NSObjectProtocol", "CKRecordZone"]
+- ["PSo16NSObjectProtocol", "CloudkitManager"]
+- !private ["PSo16NSObjectProtocol", "OperationQueue"]
+- !private ["PSo16NSObjectProtocol", "UserDefaults"]
+- !private ["PSo16NSObjectProtocol", "addOperation"]
+- ["PSo16NSObjectProtocol", "container"]
+- ["PSo16NSObjectProtocol", "createRecord"]
+- ["PSo16NSObjectProtocol", "createZone"]
+- ["PSo16NSObjectProtocol", "customZone"]
+- !private ["PSo16NSObjectProtocol", "default"]
+- !private ["PSo16NSObjectProtocol", "fetchUserRecordID"]
+- ["PSo16NSObjectProtocol", "getICloudId"]
+- ["PSo16NSObjectProtocol", "iCloudUserIDAsync"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "main"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "privateCloudDatabase"]
+- ["PSo16NSObjectProtocol", "privateDatabase"]
+- !private ["PSo16NSObjectProtocol", "recordName"]
+- !private ["PSo16NSObjectProtocol", "save"]
+- !private ["PSo16NSObjectProtocol", "setObject"]
+- !private ["PSo16NSObjectProtocol", "setValue"]
+- ["PSo16NSObjectProtocol", "setup"]
+- ["PSo16NSObjectProtocol", "shared"]
+- !private ["PSo16NSObjectProtocol", "standard"]
+- !private ["PSo16NSObjectProtocol", "synchronize"]
+- !private ["PSo16NSObjectProtocol", "zoneID"]
+- !private ["PSo16NSObjectProtocol", "zoneName"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "recordName"]
+- !private ["PSo14NSSecureCoding", "setObject"]
+- !private ["PSo14NSSecureCoding", "zoneID"]
+- !private ["PSo14NSSecureCoding", "zoneName"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo14OperationQueue", "addOperation"]
+- !private ["CSo14OperationQueue", "deinit"]
+- !private ["CSo14OperationQueue", "main"]
+- ["Sq", "deinit"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["CSo12UserDefaults", "deinit"]
+- !private ["CSo12UserDefaults", "setValue"]
+- !private ["CSo12UserDefaults", "standard"]
+- !private ["CSo12UserDefaults", "synchronize"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "CKContainer"]
+- !private ["Ps9_Hashable", "CKRecord"]
+- !private ["Ps9_Hashable", "CKRecordZone"]
+- ["Ps9_Hashable", "CloudkitManager"]
+- !private ["Ps9_Hashable", "OperationQueue"]
+- !private ["Ps9_Hashable", "UserDefaults"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "addOperation"]
+- ["Ps9_Hashable", "container"]
+- ["Ps9_Hashable", "createRecord"]
+- ["Ps9_Hashable", "createZone"]
+- ["Ps9_Hashable", "customZone"]
+- !private ["Ps9_Hashable", "default"]
+- !private ["Ps9_Hashable", "fetchUserRecordID"]
+- ["Ps9_Hashable", "getICloudId"]
+- ["Ps9_Hashable", "iCloudUserIDAsync"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "main"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "privateCloudDatabase"]
+- ["Ps9_Hashable", "privateDatabase"]
+- !private ["Ps9_Hashable", "recordName"]
+- !private ["Ps9_Hashable", "save"]
+- !private ["Ps9_Hashable", "setObject"]
+- !private ["Ps9_Hashable", "setValue"]
+- ["Ps9_Hashable", "setup"]
+- ["Ps9_Hashable", "shared"]
+- !private ["Ps9_Hashable", "standard"]
+- !private ["Ps9_Hashable", "synchronize"]
+- !private ["Ps9_Hashable", "zoneID"]
+- !private ["Ps9_Hashable", "zoneName"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- "CSo11CKContainer"
+- "CSo10CKDatabase"
+- "CSo8CKRecord"
+- !private "CSo10CKRecordID"
+- !private "PSo13CKRecordValue"
+- "CSo12CKRecordZone"
+- "CSo14CKRecordZoneID"
+- !private "PSo15CNKeyDescriptor"
+- "Ps7CVarArg"
+- !private "Vs9Character"
+- "C15CloudKitTestApp15CloudkitManager"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- "Ps8Hashable"
+- "SQ"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "CSo14OperationQueue"
+- "Sq"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "CSo12UserDefaults"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CloudKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Contacts.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+interface-hash: "8a13e3cd6462d788f02b751b8709d7fc"

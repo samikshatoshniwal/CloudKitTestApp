@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "85fdae3a39f21cf7e6fe4f04ce7df169"
+build_time: [540554957, 500187000]
+inputs:
+  "/Users/samiksha/Documents/Practise/CloudKitTestApp/CloudKitTestApp/ViewController.swift": [540551996, 0]
+  "/Users/samiksha/Documents/Practise/CloudKitTestApp/CloudKitTestApp/AppDelegate.swift": [540398502, 0]
+  "/Users/samiksha/Documents/Practise/CloudKitTestApp/CloudKitTestApp/CloudkitManager.swift": [540554957, 0]
